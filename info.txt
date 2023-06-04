@@ -1,0 +1,23 @@
+dark background color (header and footer):
+#1F2937
+
+Header main text ('this website is awesome'):
+48px extra-bold #F9FAF8
+
+Header secondary text, Header link text:
+18px #E5E7EB
+
+Header Logo Text:
+24px #F9FAF8
+
+Button color, call to action background color:
+#3882F6
+
+information header text:
+36px extra-bold #1F2937
+
+Qutore section background color:
+#E5E7EB
+
+Quote text:
+36px light italic #1F2937
