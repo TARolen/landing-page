@@ -16,7 +16,7 @@ Button color, call to action background color:
 information header text:
 36px extra-bold #1F2937
 
-Qutore section background color:
+Quote section background color:
 #E5E7EB
 
 Quote text:
