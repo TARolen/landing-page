@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-wrap: wrap;
 }
 
 .header {
@@ -18,15 +19,14 @@ body {
     font-size: 24px;
     padding-left: 100px;
     padding-right: 100px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .header-logo {
     display: flex;
-    justify-content: left;
 }
 .header-links {
     display: flex;
-    flex: 1 1 1;
-    justify-content: right;
 }
 
 
@@ -38,7 +38,7 @@ body {
     margin: 10px;
 }
 
-ul {
+.header ul {
     display: flex;
     list-style: none;
 }
@@ -105,11 +105,18 @@ ul {
 
 .card-container-container{
     background-color: #F9FAF8;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container {
     display: flex;
     flex-direction: row;
+    flex: 1 1 0;
+    gap: 20px;
+    width: 160px;
 }
 
 .card-container-header{
@@ -121,16 +128,24 @@ ul {
     justify-content: center;
 }
 .card {
-    border: 3px solid #eee;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
     display: flex;
-    width: 300px;
-    flex-direction: row;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
     padding: 16px;
     margin: 14px;
-    flex: 1 1 1;
   }
+.card-container img {
+    display: flex;
+    height: auto;
+    width: 150px;
+}
+
+.card .text {
+    display: flex;
+    color: red;
+
+}
 
 
 .quote-container {
@@ -149,8 +164,8 @@ ul {
     justify-content: center;
     flex-direction: column;
     padding: 100px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 18%;
+    padding-right: 18%;
 }
 
 .quote-sign {
