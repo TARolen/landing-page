@@ -16,23 +16,33 @@ body {
     color: #F9FAF8;
     padding: 0 16px;
     align-items: center;
-    font-size: 24px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     flex-direction: row;
     justify-content: space-between;
 }
 .header-logo {
     display: flex;
+    font-weight: 300;
+    font-size: 24px;
 }
 .header-links {
+    font-weight: 200;
     display: flex;
+    font-size: 18px;
 }
-
+.header button {
+    height: 30px;
+    color: black;
+    background-color: aqua;
+    border: 0;
+    border-radius: 2px;
+    margin-left: 40px;
+}
 
 .header a {
     display: flex;
-    color: white;
+    color: #F9FAF8;
     font-size: 18px;
     text-decoration: none;
     margin: 10px;
@@ -45,27 +55,30 @@ body {
 
 .header-container {
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #1F2937;
     color: #E5E7EB; 
     font-size: 14px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
+
 .header-container .text-container{
     display: flex;
-    width: 400px;
+    width: 520px;
     flex-wrap: wrap;
     font-size: 18px;
-    margin: 5px;
+    margin-left: 25px;
+    align-items: center;
+    color: #E5E7EB;
 }
 
 .header-container .text-container button{
     display: flex;
-    color: white;
+    color: #E5E7EB;
     height: 25px;
     border: 0px;
     border-radius: 12px;
@@ -83,14 +96,15 @@ body {
     font-size: 32px;
 }
 
-.header-container .image-container{
+.header-container .image-container img{
     display: flex;
     height: 250px;
-    width: 500px;
+    width: 400px;
     background-color: grey;
     justify-content: center;
     align-items: center;
     margin: 5px;
+    border-radius: 6px;
 }
 .footer {
     display: flex;
@@ -115,8 +129,7 @@ body {
     display: flex;
     flex-direction: row;
     flex: 1 1 0;
-    gap: 20px;
-    width: 160px;
+    justify-content: center;
 }
 
 .card-container-header{
@@ -137,14 +150,17 @@ body {
   }
 .card-container img {
     display: flex;
-    height: auto;
-    width: 150px;
+    object-fit: fill;
+    height: 180px;
+    border-radius: 6px;
+    
 }
 
 .card .text {
     display: flex;
-    color: red;
-
+    color: #1F2937;
+    font-size: 14px;
+    padding: 10px;
 }
 
 
