@@ -23,6 +23,7 @@ body {
 }
 .header-logo {
     display: flex;
+    margin-left: 75px;
     font-weight: 300;
     font-size: 24px;
 }
@@ -33,8 +34,8 @@ body {
 }
 .header button {
     height: 30px;
-    color: black;
-    background-color: aqua;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 158, 240);
     border: 0;
     border-radius: 2px;
     margin-left: 40px;
@@ -160,7 +161,8 @@ body {
     display: flex;
     color: #1F2937;
     font-size: 14px;
-    padding: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 
 
@@ -188,4 +190,58 @@ body {
     display: flex;
     font-weight: 400;
     justify-content: right;
+}
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.call {
+    display: flex;
+    margin: 100px;
+    height: 150px;
+    width: 100%;
+    background-color: #3882F6;
+    flex-direction: row;
+    border-radius: 6px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.call-header{
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+.call-header p{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+.call-container button{
+    display: flex;
+    width: 150px;
+    color: white;
+    background-color:#3882F6;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 0;
+    border: 30;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px;
+
+}
+
+.call-container button:hover{
+    color: #e9e9e9;
 }
